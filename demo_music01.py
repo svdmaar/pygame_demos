@@ -24,5 +24,11 @@ class Demo_Music01(Demo.Demo):
                 pygame.mixer.music.unload()
                 self.playing = False
 
+    def cleanup(self):
+        if self.playing:
+            pygame.mixer.music.stop()
+            pygame.mixer.music.unload()
+            self.playing = False
+
     def getName(self):
         return "music01: click to start/stop music, music will restart at end (loops forever)"

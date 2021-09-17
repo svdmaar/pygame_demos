@@ -96,6 +96,9 @@
     <Compile Include="demo_fps03.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="demo_scale_rotate01.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pygame02.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

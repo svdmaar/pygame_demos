@@ -23,6 +23,10 @@ class Demo_Joystick01(Demo.Demo):
         # TODO: do we need to free these font surfaces?
         textY = 0
         self.screen.blit(self.countSurface, (0, 0))
+
+        if self.joystickCount == 0:
+            return
+
         textY += 30
         self.screen.blit(self.joystickNameSurface0, (0, textY))
         textY += 30

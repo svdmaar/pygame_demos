@@ -24,6 +24,7 @@ import demo_blit02
 import demo_fps01
 import demo_fps02
 import demo_fps03
+import demo_scale_rotate01
 # Add extra demo import here
 
 if __name__ == "__main__":
@@ -52,6 +53,7 @@ if __name__ == "__main__":
         demo_fps01.Demo_Fps01(),
         demo_fps02.Demo_Fps02(),
         demo_fps03.Demo_Fps03(),
+        demo_scale_rotate01.Demo_Scale_Rotate01(),
         # Add extra demo instantiation here
     ]
 
